@@ -1,5 +1,9 @@
 package onlinecommercialbookstore;
 
+/**
+ * Declare a book with an ISBN, price, and specifications.
+ */
+
 public class Book {
     private String ISBN;
     private double price;
@@ -10,6 +14,8 @@ public class Book {
         this.price = price;
         this.spec = spec;
     }
+    
+     // Getters and setters for book details
 
     public String getISBN() {
         return ISBN;

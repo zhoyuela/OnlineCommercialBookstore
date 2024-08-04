@@ -1,5 +1,9 @@
 package onlinecommercialbookstore;
 
+/**
+ * Declare BookSpec, the specifications of a book, including publisher, genre, and authors.
+ */
+
 import java.util.List;
 import java.util.Objects;
 
@@ -14,6 +18,8 @@ public class BookSpec {
         this.authors = authors;
     }
 
+     // Getters and setters for BookSpec
+    
     public Publisher getPublisher() {
         return publisher;
     }
@@ -38,6 +44,7 @@ public class BookSpec {
         this.authors = authors;
     }
 
+    // Overriding for proper comparison
     @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;

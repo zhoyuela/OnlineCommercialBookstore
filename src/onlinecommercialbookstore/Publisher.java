@@ -1,5 +1,9 @@
 package onlinecommercialbookstore;
 
+/**
+ * Declare a publisher with an ID and name.
+ */
+
 public class Publisher {
     private String publisherId;
     private String publisherName;
@@ -9,6 +13,8 @@ public class Publisher {
         this.publisherName = publisherName;
     }
 
+    // Getters and setters for publisher's ID and name
+    
     public String getPublisherId() {
         return publisherId;
     }

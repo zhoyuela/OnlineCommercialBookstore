@@ -7,6 +7,9 @@ package onlinecommercialbookstore;
 /**
  *
  * @author Yuelan Zhou
+ * Main class for the Online Commercial Bookstore.
+ * Initializes the inventory,create authors,publishers,bookSpec,books.
+ * set add and search functions.
  */
 
 
@@ -27,7 +30,7 @@ public class OnlineCommercialBookstore {
         Publisher publisher1 = new Publisher("P1", "Publisher 1");
         Publisher publisher2 = new Publisher("P2", "Publisher 2");
         
-        // Create two bookspecs
+        // Create two bookSpecs
         BookSpec spec1 = new BookSpec(publisher1, Genre.FICTION, Arrays.asList(author1, author2));
         BookSpec spec2 = new BookSpec(publisher2, Genre.DRAMA, Arrays.asList(author2));
         

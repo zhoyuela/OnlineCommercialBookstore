@@ -1,5 +1,9 @@
 package onlinecommercialbookstore;
 
+/**
+ * Declare an author with an ID and name.
+ */
+
 public class Author {
     private String authorId;
     private String authorName;
@@ -9,6 +13,8 @@ public class Author {
         this.authorName = authorName;
     }
 
+    // Getters and setters for author's ID and name
+    
     public String getAuthorId() {
         return authorId;
     }
